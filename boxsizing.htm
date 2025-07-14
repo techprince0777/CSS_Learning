@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box sizing</title>
+    <style>
+#box{
+    background-color:red;
+    color:rgb(255, 255, 255);
+    border:2px solid black;
+    margin:10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+    font-weight: 900;
+ font-size: 30px;
+ text-align: center;
+ box-sizing:border-box
+    }
+
+    #box2{
+            margin:10px 10px 10px 10px;
+    background-color:red;
+    color:rgb(231, 244, 231);
+      font-weight: 900;
+    border:2px solid black;
+    height: 200px;
+    width: 200px;
+     font-size: 30px;
+     box-sizing:content-box;
+ text-align: center;
+ 
+ }
+</style>
+</head>
+<body>
+    <div id="box">border box</div>
+        <div id="box2">border content</div>
+</body>
+</html>

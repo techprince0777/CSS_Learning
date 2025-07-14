@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Postion property</title>
+    <style>
+    *container{
+        position: relative;
+
+    }
+        .first {
+         
+            color: white;
+            height: 100px;
+            width: 100px;
+            border: 2px dashed rgb(255, 255, 255);
+            text-align:center;
+            font-weight: 900;
+            font-size: 25px;
+             position: absolute;
+        }
+
+        #second {
+              background-color: red;
+            top: 60px;
+            left: 20px;
+            Z-index:2;
+        }
+
+        #third {
+       background-color: greenyellow;
+            top: 20px;
+            left: 60px;
+            z-index:1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+    <div id="second" class="first">Z-index1</div>
+    <div id="third" class="first">Z-index2</div>
+    </div>
+</body>
+
+</html>
