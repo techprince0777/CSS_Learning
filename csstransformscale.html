@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Css transform rotate</title>
+    <style>
+
+.box{
+    height: 70px;
+    width: 70px;
+    margin:50px;
+    border: 1px solid ;
+    
+    background-color: plum;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#box1{
+    background-color: lime;
+}
+#box1:hover{
+    transform:scale(2);
+}
+#box2{
+    background-color: lime;
+}
+#box2:hover{
+    transform:scale(4);
+}
+#box3{
+    background-color: lime;
+}
+#box3:hover{
+    transform:scalex(2);
+}
+#box4{
+    background-color: lime;
+}
+#box4:hover{
+    transform:scaley(3);
+}
+#container{
+    border: 5px solid grey;
+    height:500px;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+    <h2>css transform rotate</h2>
+    <div id="container">
+    <div id="box1" class="box">scale twice</div>
+     <div id="box2" class="box">scale 4 twice</div>
+      <div id="box3" class="box">scale x twice</div>
+       <div id="box4" class="box">scale y twice</div>
+        </div>
+</body>
+</html>

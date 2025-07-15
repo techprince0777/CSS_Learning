@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flexbox</title>
+    <style>
+        .box{
+            height: 75px;
+            width:75px;
+            border:2px solid black;
+            margin:10px;
+            flex-direction: column;
+        }
+        #container{
+            height: 600px;
+            width: 600px;
+            padding:10px;
+            margin:20px;
+            border:2px dashed black;
+            background-color: rgb(230, 227, 227);
+            display: flex;
+      
+        flex-direction:row-reverse;
+          flex-direction:column-reverse;
+        }
+        #header{
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+        }
+        #box1{
+            background-color: rgb(8, 245, 8);
+        }
+               #box2{
+            background-color: rgb(109, 0, 251);
+        }
+               #box3{
+            background-color: rgb(225, 255, 0);
+        }
+               #box4{
+            background-color: rgb(245, 154, 8);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Flex Container</h1>
+    <div id=container>
+    <div id="box1" class="box">flexbox1</div>
+    <div id="box2" class="box">flexbox2</div>
+    <div id="box3" class="box">flexbox3</div>
+    <div id="box4" class="box">flexbox4</div>
+    </div>
+</body>
+</html>

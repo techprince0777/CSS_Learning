@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Css transform rotate</title>
+    <style>
+
+.box{
+    height: 70px;
+    width: 70px;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: plum;
+    position: relative;
+}
+#box1{
+     top: 50px;
+    left:50px;
+    transform:rotate(45deg);
+}
+#box2{
+       top: 80px;
+    left:50px;
+    transform:rotate(90deg);
+
+}
+#box3{
+       top: 100px;
+    left:50px;
+    transform:rotatex(50deg);
+
+}
+#box4{
+       top: 150px;
+    left:50px;
+    transform:rotatey(70deg);
+
+}
+#container{
+    border: 5px solid grey;
+    height:500px;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+    <h2>css transform rotate</h2>
+    <div id="container">
+    <div id="box1" class="box">Rotate45</div>
+     <div id="box2" class="box">Rotate90</div>
+      <div id="box3" class="box">Rotatex</div>
+       <div id="box4" class="box">Rotatey</div>
+        </div>
+</body>
+</html>

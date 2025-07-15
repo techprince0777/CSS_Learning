@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>grid container</title>
+    <style>
+        .box{
+            height: 75px;
+            width:75px;
+            border:2px solid black;
+            margin:10px;
+            flex-direction: column;
+        }
+        #container{
+            height: 300px;
+            width: 600px;
+            padding:10px;
+            margin:20px;
+            border:2px dashed black;
+            background-color: rgb(230, 227, 227);
+            display:grid;
+           grid-template-columns: 80px 100px;
+           grid-template-rows: 50px  100px;
+        }
+        #header{
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+        }
+        #box1{
+            background-color: rgb(8, 245, 8);
+        grid-row: 1/2;
+        grid-column:1/2
+
+        }
+               #box2{
+            background-color: rgb(109, 0, 251);
+                   grid-row: 2/2;
+        grid-column:2/2
+ 
+        }
+               #box3{
+            background-color: rgb(225, 255, 0);
+                   grid-row:2/2;
+        grid-column:1/2
+              
+        }
+               #box4{
+            background-color: rgb(245, 154, 8);
+                   grid-row: 1/2;
+        grid-column:2/2
+              
+        
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Flex Container</h1>
+    <div id=container>
+    <div id="box1" class="box">flexbox1</div>
+    <div id="box2" class="box">flexbox2</div>
+    <div id="box3" class="box">flexbox3</div>
+    <div id="box4" class="box">flexbox4</div>
+    </div>
+</body>
+</html>

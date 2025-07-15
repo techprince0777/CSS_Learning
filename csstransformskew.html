@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Css transform skew</title>
+    <style>
+
+.box{
+    height: 70px;
+    width: 70px;
+    margin:50px;
+    border: 1px solid ;
+    
+    background-color: plum;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#box1{
+    background-color: lime;
+}
+#box1:hover{
+    transform:skew(45deg);
+}
+#box2{
+    background-color: lime;
+}
+#box2:hover{
+    transform:skew(90deg);
+}
+#box3{
+    background-color: lime;
+}
+#box3:hover{
+    transform:skew(20deg);
+}
+#box4{
+    background-color: lime;
+}
+#box4:hover{
+    transform:skew(58deg);
+}
+#container{
+    border: 5px solid grey;
+    height:500px;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+    <h2>css transform rotate</h2>
+    <div id="container">
+    <div id="box1" class="box">skew 45</div>
+     <div id="box2" class="box">skew 90 </div>
+      <div id="box3" class="box">skew 20</div>
+       <div id="box4" class="box">skew 58</div>
+        </div>
+</body>
+</html>
